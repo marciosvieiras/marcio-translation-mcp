@@ -1,0 +1,35 @@
+{
+  "name": "full_analysis_17",
+  "items": [
+    "1) Idioma do texto-fonte",
+    "2) Texto informado em inglês",
+    "3) Erros de digitação",
+    "4) Erros de ortografia",
+    "5) Erros gramaticais",
+    "6) Tempos verbais",
+    "7) Preposições",
+    "8) Pontuação",
+    "9) Capitalização",
+    "10) Coerência e sentido",
+    "11) Análise segundo o inglês britânico padrão",
+    "12) Registro do texto",
+    "13) Correções aplicadas na tradução",
+    "14) Classificação",
+    "15) Tradução para o português do Brasil",
+    "16) Explicação da tradução",
+    "17) Tradução final"
+  ],
+  "punctuation_required_prefixes": [
+    "8) Pontuação — Foi necessário corrigir a tradução com as pontuações devidas.",
+    "8) Pontuação — Não foi necessário corrigir a pontuação na tradução."
+  ],
+  "classification_options": [
+    "Wrong language",
+    "Garbled",
+    "Nonsensical",
+    "Typos or Spelling errors",
+    "More than 1 language",
+    "None apply"
+  ],
+  "final_item_rule": "Item 17 must contain only the final PT-BR translation and no additional commentary."
+}

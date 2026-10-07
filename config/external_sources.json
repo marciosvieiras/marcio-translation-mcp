@@ -1,0 +1,25 @@
+{
+  "priority": ["microsoft_translator_dictionary", "cambridge_api", "collins_api", "wiktionary"],
+  "providers": {
+    "microsoft_translator_dictionary": {
+      "enabled_when_configured": true,
+      "purpose": "EN-PT alternative translations, parts of speech, back-translations and usage examples",
+      "official_docs": "https://learn.microsoft.com/azure/ai-services/translator/"
+    },
+    "cambridge_api": {
+      "enabled_when_configured": true,
+      "purpose": "British-English dictionary and bilingual lexical evidence when licensed",
+      "official_site": "https://dictionary.cambridge.org/develop"
+    },
+    "collins_api": {
+      "enabled_when_configured": true,
+      "purpose": "English and bilingual dictionary evidence",
+      "official_site": "https://www.collinsdictionary.com/collins-api"
+    },
+    "wiktionary": {
+      "enabled": true,
+      "purpose": "Free lexical fallback for definitions and language-labelled senses",
+      "official_docs": "https://www.mediawiki.org/wiki/Wikimedia_REST_API"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "profile": "literal_asr",
+  "translation_mode": "literal_asr",
+  "response_mode": "full_analysis_17",
+  "source_locale": "en-GB",
+  "target_locale": "pt-BR",
+  "preserve_fragmentation": true,
+  "translate_even_if_meaningless": true,
+  "infer_missing_information": false,
+  "reconstruct_intended_meaning": false,
+  "external_lookup": "only_for_term_disambiguation"
+}

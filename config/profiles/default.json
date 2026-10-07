@@ -1,0 +1,18 @@
+{
+  "profile": "default",
+  "translation_mode": "professional",
+  "response_mode": "full_analysis_17",
+  "source_locale": "en-GB",
+  "target_locale": "pt-BR",
+  "external_lookup": "when_local_evidence_is_insufficient",
+  "source_priority": [
+    "client_mandatory",
+    "user_approved",
+    "approved_translation_memory",
+    "specialised_glossary",
+    "specialised_corpus",
+    "idioms_phrasal_slang",
+    "online_dictionary",
+    "general_model_knowledge"
+  ]
+}

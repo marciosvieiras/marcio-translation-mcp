@@ -1,0 +1,10 @@
+{
+  "profile": "oneforma",
+  "extends": "literal_asr",
+  "translation_mode": "literal_asr",
+  "response_mode": "full_analysis_17",
+  "translate_even_if_meaningless": true,
+  "preserve_fragmentation": true,
+  "infer_missing_information": false,
+  "notes": "Perfil inicial baseado nas regras fornecidas pelo usuário para material de fala/ASR. Ajustar quando houver instruções específicas de um novo projeto."
+}
