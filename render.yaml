@@ -2,7 +2,7 @@ services:
   - type: web
     name: marcio-translation-mcp
     runtime: python
-    buildCommand: python bootstrap_repo.py && pip install -r requirements.txt && python scripts/rebuild_database.py
+    buildCommand: pip install -r requirements.txt && python bootstrap_repo.py && python bootstrap.py
     startCommand: uvicorn app:app --host 0.0.0.0 --port $PORT --proxy-headers --forwarded-allow-ips=*
     healthCheckPath: /health
     envVars:
